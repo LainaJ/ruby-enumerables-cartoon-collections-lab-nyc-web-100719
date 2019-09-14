@@ -26,7 +26,6 @@ def find_the_cheese(array)# code an argument here
 
   array.detect do |variety|
     array.include? (variety)
-  
   end
 end
 
