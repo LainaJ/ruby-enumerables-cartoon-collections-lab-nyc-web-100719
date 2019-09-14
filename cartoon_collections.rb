@@ -14,11 +14,10 @@ end
 
 def long_planeteer_calls(calls)
   #count number of characters
-  i = 0
-  if calls[i].length > 4 = true
-    end
-  if calls[i].length <= 4 = false
-  end
+
+  calls.reduce do |calls| calls.length > 4 puts true 
+  else 
+    puts false
 end
 
   #condition to return if false
