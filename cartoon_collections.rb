@@ -13,7 +13,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(calls)
-  #count number of characters 
+  #count number of characters
   planeteer_calls[i].length > 4 ? true:false
   #condition to return if false
 end
