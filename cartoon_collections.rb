@@ -26,6 +26,7 @@ def find_the_cheese(array)# code an argument here
 
   array.detect do |cheese|
     array.include? ("cheddar") || ("gouda") || ("camembert")
+    puts cheese 
   end
 end
 
