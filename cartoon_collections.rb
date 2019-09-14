@@ -1,6 +1,5 @@
 def roll_call_dwarves(array)
   i = 0
-
   while i < array.length
   puts "#{i + 1}. #{array[i]}"
   i += 1
@@ -8,8 +7,10 @@ def roll_call_dwarves(array)
 end
 
 
-def summon_captain_planet(array)
+def summon_captain_planet(planeteer_calls)
   # Your code here
+  new_array = []
+  planeteer_calls.map do |element| element.capitalize
 end
 
 def long_planeteer_calls# code an argument here
