@@ -14,7 +14,7 @@ end
 
 def long_planeteer_calls(calls)
   #count number of characters
-  i = 0 
+  i = 0
   :calls[i].length > 4 ? true: false
   #condition to return if false
 end
