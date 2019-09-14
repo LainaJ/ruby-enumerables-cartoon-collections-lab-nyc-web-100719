@@ -9,7 +9,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   # Your code here
-  new_array = []
+
   planeteer_calls.map do |element| element.capitalize
   end
 end
